@@ -34,7 +34,7 @@ h2 {
 }
 
 .waiting {
-    height: 50vh;
+    max-height: 50vh;
     align-self: center;
     justify-content: center;
 }
