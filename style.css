@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato" , sans-serif;
+}
+
+h2 {
+    font-size: 5rem;
+    font-weight: bold;
+    padding-bottom: 3rem;
+}
+
+.coming-soon {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.countdown {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.day, .hour, .minute, .second {
+    font-size: 3rem;
+}
+
+.waiting {
+    height: 50vh;
+    align-self: center;
+    justify-content: center;
+}
